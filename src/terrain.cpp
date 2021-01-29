@@ -63,7 +63,7 @@ int longueur = sizeof(bgTab)/sizeof(char);
     int x = i % bg_nx;
     int y = i / bg_nx;
     char lettre = bgTab[i];
-    affiche(x,y,char,color_pair = 0);
+    affiche(x,y,char);
   }
 
 }
