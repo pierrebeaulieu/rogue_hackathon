@@ -60,8 +60,10 @@ void Terrain::setup()
 int longueur = sizeof(bgTab)/sizeof(char);
   for(int i = 0; i < longueur ; i++)
   {
-    
+    int x = i % bg_nx;
+    int y = i / bg_nx;
+    char lettre = bgTab[i];
+    affiche(x,y,char,color_pair = 0);
   }
-
 
 }
